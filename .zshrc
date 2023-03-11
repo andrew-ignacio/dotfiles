@@ -1,5 +1,5 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.histfile
+HISTFILE=~/.config/zsh/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 unsetopt beep
@@ -9,11 +9,11 @@ autoload -Uz compinit
 compinit -D
 
 # Plugins
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /home/andrew/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Customization
-PROMPT="%F{red}%n%f%F{blue}@%f%F{red}%m%f[%~]%F{white}$%f "
+PROMPT="%F{red}%n%f%F{blue}@%f%F{red}%m%f[%~]%f$%f "
 alias ls='ls --color=auto'
     
 # Autostart startx

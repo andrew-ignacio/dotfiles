@@ -1,3 +1,3 @@
 #!/bin/sh
+exec dwmstart
 
-exec dwmstart.sh
